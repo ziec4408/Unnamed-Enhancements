@@ -49,8 +49,6 @@ local previous = rawget(sharedEnv, 'Unnamed Enhancements - Cracked')
 
 if game:HttpGet("https://raw.githubusercontent.com/ziec4408/Unnamed-Enhancements/refs/heads/main/activated.txt") == false then
     game.Players.LocalPlayer:Kick("The script has been disabled by the script owner.")
-else
-    return
 end
 
 if type(previous) == 'table' and (previous.status == 'starting' or previous.status == 'entry_returned') then
